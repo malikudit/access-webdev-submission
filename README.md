@@ -1,4 +1,4 @@
-# simulated-reality-website
+# Simulated Reality Website
 Website created for the IT fest Access 2016, held at Modern School, Barakhamba Road in New Delhi, India.
 Creators of this website: Udit Malik and Sagnik Anupam, as members of Exun Clan, the computer science club of Delhi Public School, R.K. Puram.
 
