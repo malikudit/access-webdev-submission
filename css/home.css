@@ -1,0 +1,96 @@
+/*One question. Sonam Gupta bewafa kyun hai?*/
+
+/*Embedded Fonts*/
+@font-face{
+	font-family: Raleway;
+	src: url(fonts/raleway-light.ttf);
+}
+
+@font-face{
+	font-family: Montserrat;
+	src: url(fonts/montserrat-extralight.otf);
+	src: url(fonts/montserrat-extralight-webfont.woff);
+	src: url(fonts/montserrat-extralight-webfont.woff);
+	src: url(fonts/montserrat-extralight.ttf);
+}
+
+/*Background Image*/
+.bgImage{
+	background-image: url("images/sky.jpg");
+	background-size: 100% 100%;
+    background-color: #000000;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+
+/*Main Block of Text*/
+.main{
+	color:#ffffff;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/*H1 Formatting*/
+.main h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 5em;
+	margin-bottom: 30px;
+}
+
+/*Horizontal Rule Animation*/
+hr{
+	width:1px;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-property: transform;
+	-webkit-transform: scaleX(200);
+	margin-top: 0px;  
+}
+
+/*H2 Animation*/
+@keyframes fadein{
+    from{
+    	opacity:0;
+    	transform: scale(.9,.9);
+    }
+
+    to{
+    	opacity:1;
+    	transform: scale(1,1);
+    }
+}
+
+.main h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 3s;
+}
+
+/*The Learn More Button*/
+input[type="button"]{
+	width:180px;
+	background-color: rgba(255,255,255,0.0);
+	padding: 12px 12px 12px 12px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	-webkit-transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+}
+
+.button{
+	text-align: center;
+	margin-top: 3em;
+}
+
+/*Hover Animation For Learn More Button*/
+.button input:hover[type="button"]{
+	background-color: rgba(255,255,255,0.1);
+	-webkit-transform: scale(1.1);
+	}
+

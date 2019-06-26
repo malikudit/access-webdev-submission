@@ -1,0 +1,186 @@
+/*One more question. Katappa ne Baahubali ko kyun maara?*/
+
+/*Embedded Fonts*/
+@font-face{
+	font-family: Raleway;
+	src: url(fonts/raleway-light.ttf);
+}
+
+@font-face{
+	font-family: Montserrat;
+	src: url(fonts/montserrat-extralight.ttf);
+	src: url(fonts/montserrat-extralight.otf);
+	src: url(fonts/montserrat-extralight-webfont.woff);
+	src: url(fonts/montserrat-extralight-webfont.woff);
+}
+
+/*Background Image*/
+.bgImagePage{
+	background-image: url("images/star.jpg");
+	background-size: 100% 100%;
+    background-color: #000000;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+/*Navigation Menu*/
+.Menu{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 3;
+}
+
+nav{
+	overflow: hidden;
+	width: 100%;
+	margin:0px;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	display: block;
+	
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+li a{
+	display:block;
+	text-decoration: none;
+	color: white;
+    text-align: center;
+    padding: 1em 2em;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+
+li a:hover{
+	color:#000000;
+	background-color: rgba(255,255,255,0.5);
+	border-bottom: 3px solid rgba(255,255,255,0.6);
+}
+
+/*Main Block of Text*/
+.mainPage{
+	color:#ffffff;
+	text-align: center;
+	margin: 3em 10em 2em 10em;
+	padding: 2em;
+	opacity: 0.8;
+	border-radius: 2%;
+	z-index:-1;
+	background-color: rgba(0,0,0,0.3);
+}
+
+@keyframes fadein{
+    from{
+    	opacity:0;
+    	transform: scale(.9,.9);
+    }
+
+    to{
+    	opacity:1;
+    	transform: scale(1,1);
+    }
+}
+
+
+/*H1 Formatting*/
+.mainPage h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 4em;
+	margin-bottom: 30px;
+}
+
+/*H2 Formatting*/
+
+.mainPage h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 3s;
+}
+
+/*Section Formatting*/
+.mainPage section{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*Right Image and Left Image*/
+@keyframes rightfade{
+	from{
+		opacity:0;
+    	transform: scale(.9,.9);
+    	transform: translateX(0px);
+	}
+
+	to{
+		opacity:1;
+    	transform: scale(1,1);
+    	transform: translateX(-10px);
+	}
+}
+
+@keyframes leftfade{
+	from{
+		opacity:0;
+    	transform: scale(.9,.9);
+    	transform: translateX(0px);
+	}
+
+	to{
+		opacity:1;
+    	transform: scale(1,1);
+    	transform: translateX(10px);
+	}
+}
+
+.rightimage{
+	background-color: #ffffff;
+	color: #000000;
+	padding:10px;
+	transform: translateX(-10px);
+	margin-bottom: 1em;
+	box-shadow: 3px 3px 2px #E0DCDF;
+	-webkit-animation-name: rightfade;
+	-webkit-animation-duration: 3s;
+}
+
+.rightimage img{
+	border-radius: 50%;
+	width:110px;
+	height:110px;
+	overflow: hidden;
+	margin-left: 1em;
+}
+
+.leftimage{
+	background-color: #333444;
+	color: #ffffff;
+	padding:10px;
+	transform: translateX(10px);
+	margin-bottom: 1em;
+	box-shadow: -3px 3px 2px #424242;
+	-webkit-animation-name: leftfade;
+	-webkit-animation-duration: 3s;	
+}
+
+.leftimage img{
+	border-radius: 50%;
+	width:110px;
+	height:110px;
+	overflow: hidden;
+	margin-right: 1em;
+}

@@ -1,0 +1,213 @@
+/*One last question. John Cena dikha aapko kabhi?*/
+
+/*Embedded Fonts*/
+@font-face{
+	font-family: Raleway;
+	src: url(fonts/raleway-light.ttf);
+}
+
+@font-face{
+	font-family: Montserrat;
+	src: url(fonts/montserrat-extralight.ttf);
+	src: url(fonts/montserrat-extralight.otf);
+	src: url(fonts/montserrat-extralight-webfont.woff);
+	src: url(fonts/montserrat-extralight-webfont.woff);
+}
+
+/*Background Image*/
+.bgImagePage{
+	background-image: url("images/star.jpg");
+	background-size: 100% 100%;
+    background-color: #000000;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+/*Navigation Menu*/
+.Menu{
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+nav{
+	overflow: hidden;
+	width: 100%;
+	margin:0px;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	display: block;
+	
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+li a{
+	display:block;
+	text-decoration: none;
+	color: white;
+    text-align: center;
+    padding: 1em 2em;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+
+li a:hover{
+	color:#000000;
+	background-color: rgba(255,255,255,0.5);
+	border-bottom: 3px solid rgba(255,255,255,0.6);
+}
+
+/*Main Block of Text*/
+.mainPage{
+	color:#ffffff;
+	text-align: center;
+	margin-top: 3em;
+	padding: 2em;
+	opacity: 1;
+	z-index:-1;
+	border-radius: 2%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+/*H1 Formatting*/
+.mainPage h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 4em;
+	margin-bottom: 30px;
+}
+
+@keyframes fadein{
+    from{
+    	opacity:0;
+    	transform: scale(.9,.9);
+    }
+
+    to{
+    	opacity:1;
+    	transform: scale(1,1);
+    }
+}
+
+/*H2 Formatting*/
+.mainPage h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 3s;
+}
+
+/*Section Formatting*/
+.mainPage section {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	text-align: left;
+	margin-left: 10em;
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 3s;
+}
+
+/* Label Formatting*/
+label {
+		color: #ffffff;
+		display: block;
+		font-size: 0.8rem;
+		font-weight: 300;
+		letter-spacing: 0.2rem;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+	}
+/*Field Div Formatting*/
+.name {
+			padding: 0 0 0 0.75rem;
+			margin: 0 0 1.5rem 0;
+
+		}
+
+.email {
+			padding: 0 0 0 0.75rem;
+			margin: 0 0 1.5rem 0;
+			}
+
+.message{
+			padding: 0 0 0 0.75rem;
+			margin: 0 0 1.5rem 0;
+}
+
+/*Field Input Formatting*/
+input[type="text"], input[type="email"], textarea{
+			width:60%;
+			padding: 12px 20px;
+    		margin: 8px 0;
+    		box-sizing: border-box;
+    		background-color:#f8f8f8;
+    		border: 2px solid #ccc;
+    		border-radius: 4px;
+    		font-family: 'Montserrat';
+} 
+
+input[type="text"]:focus{
+		background-color: rgba(255,253,194,0.9);
+}
+
+input[type="email"]:focus{
+		background-color: rgba(255,253,194,0.9);
+}
+
+/*Field Textarea Formatting*/
+textarea{
+    height: 10em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea:focus{
+	background-color: rgba(255,253,194,0.9);
+
+}
+
+/*Submit and Reset Button Formatting*/
+.button input{
+	width:180px;
+	background-color: rgba(255,255,255,0.0);
+	padding: 12px 12px 12px 12px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	-webkit-transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+}
+
+.button{
+	text-align: left;
+	padding: 0 0 0 0.75rem;
+	margin: 3em 0 1.5rem 0;
+}
+
+/*Hover Animation For Submit and Reset*/
+input[type="submit"]:hover{
+	background-color: rgba(255,255,255,0.1);
+	-webkit-transform: scale(1.1);
+	}
+
+input[type="reset"]:hover{
+	background-color: rgba(255,255,255,0.1);
+	-webkit-transform: scale(1.1);
+	}
