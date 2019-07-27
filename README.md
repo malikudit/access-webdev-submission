@@ -2,19 +2,22 @@
 Website created for the IT fest Access 2016, held at Modern School, Barakhamba Road in New Delhi, India.
 Creators of this website: Udit Malik and Sagnik Anupam, as members of Exun Clan, the computer science club of Delhi Public School, R.K. Puram.
 
-Click on the Home.html page to get started!
+Download the repository and click on index.html to get started, or alternatively, visit malikudit.github.io/simulated-reality-website.
 
-All our css files are stored in the "css" folder. 
-The images and fonts used are also inside the css folder, in folders named "images" and "font" respectively.
+All CSS files are stored in the "css" folder. 
+The images and fonts used are also inside the CSS folder, in folders named "images" and "font" respectively.
 
 Fonts used: Monsterrat Extralight, Raleway Light.
 
 Credits for the images:
+
 Backgrounds:
-Home.html - http://i.stack.imgur.com/Mv83H.png
+
+index.html - http://i.stack.imgur.com/Mv83H.png
+
 Rest of the pages - http://cdn.wallpapersafari.com/73/7/IFGysl.jpg
 
-Images Used in SimulatedReality.html:
+Images Used in simulated-reality.html:
 
 Para 1: https://futurism.com/wp-content/uploads/2013/05/281354_388774677875614_825674040_n.jpg
 
@@ -26,7 +29,8 @@ Para 4: http://vignette2.wikia.nocookie.net/matrix/images/d/df/Thematrixincode99
 
 Para 5: http://www.abovetopsecret.com/forum/thread1039562/pg1
 
-Images Used in AboutUs.html:
+Images Used in about-us.html:
+
 Para 1: https://thumbs.dreamstime.com/z/man-futuristic-glasses-future-technology-people-concept-44164771.jpg
 
 Para 2: https://hrishikeshkulkarni.files.wordpress.com/2015/03/wpid-virtual-world.jpg?w=350&h=200&crop=1
@@ -37,7 +41,7 @@ Para 4: http://i.dailymail.co.uk/i/pix/2015/01/29/252CAF5600000578-2932113-image
 
 Para 5: http://www.futures-consulting.com/wp-content/uploads/2013/09/team-building-568x275.jpg
 
-Images Used in OurTeam.html
+Images Used in our-team.html
 
 Elon Musk:   https://pbs.twimg.com/profile_images/782474226020200448/zDo-gAo0_400x400.jpg 
 
