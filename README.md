@@ -4,8 +4,12 @@ Creators of this website: Udit Malik and Sagnik Anupam, as members of Exun Clan,
 
 Download the repository and click on index.html to get started, or alternatively, visit malikudit.github.io/simulated-reality-website.
 
+![Screenshot](screenshot1.PNG)
+
 All CSS files are stored in the "css" folder. 
 The images and fonts used are also inside the CSS folder, in folders named "images" and "font" respectively.
+
+![Screenshot](screenshot2.PNG)
 
 Fonts used: Monsterrat Extralight, Raleway Light.
 
@@ -14,8 +18,6 @@ Credits for the images:
 Backgrounds:
 
 index.html - http://i.stack.imgur.com/Mv83H.png
-
-![Screenshot](screenshot1.PNG)
 
 Rest of the pages - http://cdn.wallpapersafari.com/73/7/IFGysl.jpg
 
