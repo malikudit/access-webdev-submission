@@ -15,6 +15,8 @@ Backgrounds:
 
 index.html - http://i.stack.imgur.com/Mv83H.png
 
+![Screenshot](screenshot1.PNG)
+
 Rest of the pages - http://cdn.wallpapersafari.com/73/7/IFGysl.jpg
 
 Images Used in simulated-reality.html:
